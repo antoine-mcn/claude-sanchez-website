@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /mentions-legales
+Disallow: /politique-de-confidentialite
+Disallow: /cgu
+
+Sitemap: https://claudesanchez.fr/sitemap.xml
