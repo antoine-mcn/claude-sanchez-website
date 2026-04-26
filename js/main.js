@@ -15,7 +15,7 @@ if (hamburger && mobileMenu) {
     hamburger.setAttribute('aria-expanded', isOpen);
   });
   document.addEventListener('click', (e) => {
-    if (!header.contains(e.target)) {
+    if (header && !header.contains(e.target)) {
       mobileMenu.classList.remove('open');
       hamburger.setAttribute('aria-expanded', 'false');
     }
@@ -66,7 +66,7 @@ if (contactForm) {
       const json = await res.json();
       if (json.success) {
         alertBox.className = 'form-alert success';
-        alertBox.textContent = 'Votre message a bien été envoyé. Nous vous recontacterons dans les plus brefs délais.';
+        alertBox.textContent = 'Votre message a bien été envoyé. Nous vous recontacterons rapidement.';
         alertBox.style.display = 'block';
         contactForm.reset();
       } else {

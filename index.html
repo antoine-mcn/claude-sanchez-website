@@ -7,15 +7,13 @@
   <meta name="description" content="SARL Claude Sanchez — Expert en maçonnerie, rénovation et construction dans le Luberon (Apt, 84400). Plus de 30 ans de savoir-faire artisanal en Provence. Demandez votre devis gratuit.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://claudesanchez.fr/">
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="icon" type="image/webp" href="./images/favicon.webp">
   <link rel="stylesheet" href="./css/styles.css">
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://claudesanchez.fr/">
   <meta property="og:title" content="Maçonnerie &amp; Rénovation Luberon | Claude Sanchez">
   <meta property="og:description" content="Expert en maçonnerie et rénovation dans le Luberon depuis plus de 30 ans.">
   <meta property="og:image" content="./opengraph.jpg">
-  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -31,11 +29,7 @@
       "addressLocality": "Apt",
       "postalCode": "84400",
       "addressCountry": "FR"
-    },
-    "geo": { "@type": "GeoCoordinates", "latitude": 43.876, "longitude": 5.397 },
-    "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" }
-    ]
+    }
   }
   </script>
 </head>
@@ -46,7 +40,7 @@
   <div class="container">
     <div class="header-inner">
       <a href="./index.html" class="logo">
-        <img src="./images/logo.webp" alt="Claude Sanchez — Maçonnerie &amp; Rénovation" width="180" height="36">
+        <img src="./images/logo.webp" alt="Claude Sanchez — Maçonnerie &amp; Rénovation" width="220" height="44">
       </a>
       <nav>
         <a href="./index.html" class="nav-link active">Accueil</a>
@@ -71,10 +65,10 @@
 <section class="hero" style="background-image: url('./images/hero-banner.webp');">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <span class="section-label" style="color:rgba(255,255,255,.6)">Luberon · Provence</span>
-    <h1>Maçonnerie &amp; Rénovation<br>dans le Luberon</h1>
-    <p>Expertise artisanale, matériaux nobles, finitions impeccables.<br>Votre projet mérite le meilleur savoir-faire provençal.</p>
-    <div class="hero-btns">
+    <span class="section-label hero-anim hero-anim-1" style="color:rgba(255,255,255,.6)">Luberon · Provence</span>
+    <h1 class="hero-anim hero-anim-2">Maçonnerie &amp; Rénovation<br>dans le Luberon</h1>
+    <p class="hero-anim hero-anim-3">Expertise artisanale, matériaux nobles, finitions impeccables.<br>Votre projet mérite le meilleur savoir-faire provençal.</p>
+    <div class="hero-btns hero-anim hero-anim-4">
       <a href="./contact.html" class="btn btn-white">Demander un devis gratuit</a>
       <a href="./realisations.html" class="btn btn-outline-white">Voir nos réalisations</a>
     </div>
@@ -89,7 +83,7 @@
   <div class="container">
     <div class="grid-2" style="gap:4rem">
       <div style="position:relative; max-width:28rem; margin-inline:auto">
-        <img src="./images/service-renovation.webp" alt="Façade rénovée en pierre" class="about-img" style="width:100%; aspect-ratio:4/5; object-fit:cover;">
+        <img src="./images/service-renovation.webp" alt="Façade rénovée en pierre" style="width:100%; aspect-ratio:4/5; object-fit:cover;">
         <div class="about-badge">
           <span class="badge-num">30+</span>
           <span class="badge-label">Ans d'expérience</span>
@@ -117,30 +111,6 @@
   </div>
 </section>
 
-<!-- ─── STATS ─── -->
-<div class="stats-bar">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="reveal">
-        <span class="stat-num">30+</span>
-        <span class="stat-label">Ans d'expérience</span>
-      </div>
-      <div class="reveal">
-        <span class="stat-num">500+</span>
-        <span class="stat-label">Chantiers réalisés</span>
-      </div>
-      <div class="reveal">
-        <span class="stat-num">100%</span>
-        <span class="stat-label">Clients satisfaits</span>
-      </div>
-      <div class="reveal">
-        <span class="stat-num">84400</span>
-        <span class="stat-label">Apt, Luberon</span>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- ─── SERVICES ─── -->
 <section class="section">
   <div class="container">
@@ -165,7 +135,7 @@
       </div>
       <div class="service-card reveal">
         <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8l9-6 9 6v12H3V8z"/><path d="M9 22v-6h6v6"/><path d="M21 8l-9-6-9 6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8l9-6 9 6v12H3V8z"/><path d="M9 22v-6h6v6"/></svg>
         </div>
         <h3>Piscines &amp; Fontaines</h3>
         <p>Conception et réalisation de piscines sur-mesure et fontaines décoratives intégrées dans l'espace provençal.</p>
@@ -192,71 +162,24 @@
         <p>Réalisation de vos projets de construction neuve avec des matériaux durables et un design ancré dans le territoire.</p>
       </div>
     </div>
-    <div class="text-center mt-12 reveal">
+    <div class="text-center reveal" style="margin-top:4rem">
       <a href="./services.html" class="btn btn-primary">Voir tous nos services</a>
     </div>
   </div>
 </section>
 
-<!-- ─── CTA IMAGE ─── -->
-<section class="cta-section" style="background-image: url('./images/cta-services.webp');">
+<!-- ─── CTA FINAL ─── -->
+<section class="cta-section" style="background-image: url('./images/gallery-piscine.webp');">
   <div class="hero-overlay"></div>
   <div class="cta-content">
-    <h2 class="reveal">Un projet en tête&nbsp;?</h2>
-    <p class="reveal">De la rénovation d'un mas provençal à la construction d'une piscine, nous réalisons vos projets avec passion et expertise.</p>
-    <div class="btns reveal">
-      <a href="./contact.html" class="btn btn-white">Demander un devis gratuit</a>
-      <a href="./realisations.html" class="btn btn-outline-white">Voir les réalisations</a>
-    </div>
-  </div>
-</section>
-
-<!-- ─── RÉALISATIONS PREVIEW ─── -->
-<section class="section">
-  <div class="container">
-    <div class="text-center mb-12">
-      <span class="section-label reveal">Portfolio</span>
-      <h2 class="reveal">Quelques réalisations</h2>
-    </div>
-    <div class="gallery-grid">
-      <div class="gallery-item wide reveal">
-        <img src="./images/gallery-piscine.webp" alt="Piscine sur-mesure — Luberon" loading="lazy">
-        <div class="gallery-caption"><span>Piscine sur-mesure</span><small>Luberon</small></div>
-      </div>
-      <div class="gallery-item reveal">
-        <img src="./images/gallery-salon.webp" alt="Rénovation salon — Provence" loading="lazy">
-        <div class="gallery-caption"><span>Rénovation intérieure</span><small>Salon provençal</small></div>
-      </div>
-      <div class="gallery-item reveal">
-        <img src="./images/gallery-facade.webp" alt="Façade en pierres — Apt" loading="lazy">
-        <div class="gallery-caption"><span>Façade en pierres</span><small>Apt, 84400</small></div>
-      </div>
-      <div class="gallery-item reveal">
-        <img src="./images/gallery-fontaine.webp" alt="Fontaine décorative — Luberon" loading="lazy">
-        <div class="gallery-caption"><span>Fontaine décorative</span><small>Luberon</small></div>
-      </div>
-      <div class="gallery-item wide reveal">
-        <img src="./images/gallery-maison.webp" alt="Mas provençal avec piscine" loading="lazy">
-        <div class="gallery-caption"><span>Mas provençal</span><small>Rénovation complète</small></div>
-      </div>
-    </div>
-    <div class="text-center mt-12 reveal">
-      <a href="./realisations.html" class="btn btn-primary">Voir toutes les réalisations</a>
-    </div>
-  </div>
-</section>
-
-<!-- ─── CTA DARK ─── -->
-<div class="cta-dark">
-  <div class="container">
     <h2 class="reveal">Prêt à démarrer votre projet&nbsp;?</h2>
-    <p class="reveal">Contactez-nous pour un devis gratuit et sans engagement. Notre équipe vous répond sous 24h.</p>
-    <div class="reveal">
-      <a href="./contact.html" class="btn btn-white" style="margin-right:1rem">Demander un devis</a>
-      <a href="tel:0646425788" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.4)">06 46 42 57 88</a>
+    <p class="reveal">Contactez-nous pour discuter de votre projet et obtenir un devis personnalisé.</p>
+    <div class="btns reveal">
+      <a href="./contact.html" class="btn btn-white">Demander un devis</a>
+      <a href="tel:0646425788" class="btn btn-outline-white">06 46 42 57 88</a>
     </div>
   </div>
-</div>
+</section>
 
 <!-- ─── FOOTER ─── -->
 <footer>
@@ -288,12 +211,12 @@
         <ul class="footer-links">
           <li><a href="tel:0646425788">06 46 42 57 88</a></li>
           <li><a href="mailto:info@claudesanchez.fr">info@claudesanchez.fr</a></li>
-          <li>2 voie Domitienne, Apt 84400</li>
+          <li><a href="https://www.google.com/maps/search/2+voie+Domitienne+Apt+84400+Vaucluse" target="_blank" rel="noopener noreferrer">2 voie Domitienne, Apt 84400</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2025 SARL Claude Sanchez. Tous droits réservés.</p>
+      <p class="footer-copy">&copy; 2026 SARL Claude Sanchez. Tous droits réservés.</p>
       <div class="footer-legal">
         <a href="./mentions-legales.html">Mentions légales</a>
         <a href="./politique-de-confidentialite.html">Confidentialité</a>
